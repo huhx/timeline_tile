@@ -142,7 +142,6 @@ class _Description extends StatelessWidget {
           ),
           Theme(
             data: Theme.of(context).copyWith(
-              accentColor: Colors.white,
               dividerColor: Colors.transparent,
               unselectedWidgetColor: Colors.white,
             ),

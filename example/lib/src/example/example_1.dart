@@ -36,7 +36,7 @@ class Example1Vertical extends StatelessWidget {
         <Widget>[
           Container(
             color: Colors.white,
-            child: TimelineTile(),
+            child: const TimelineTile(),
           ),
         ],
       ),
@@ -57,7 +57,7 @@ class Example1Horizontal extends StatelessWidget {
               Container(
                 constraints: const BoxConstraints(maxHeight: 100),
                 color: Colors.white,
-                child: TimelineTile(
+                child: const TimelineTile(
                   axis: TimelineAxis.horizontal,
                   alignment: TimelineAlign.center,
                 ),
